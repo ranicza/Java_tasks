@@ -1,0 +1,31 @@
+body{
+     margin-left: 5%;
+     margin-right: 5%;
+}
+h1{
+    text-align: center;
+}
+div{
+	text-align: center;
+	margin-top: 5%;
+}
+.btn{
+    margin-top: 2%;
+    border-radius: 50%;
+}
+#h1-choose{
+	margin-top: 5%;
+}
+#tariff-header{
+	font-weight: bolder;
+}
+
+img{
+	width: 60%;
+	height: 60%;
+}
+
+a{
+	float: left;
+	margin-bottom: 1%;
+}

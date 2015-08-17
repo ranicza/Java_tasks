@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:tariff xmlns:tns="http://www.epam.com.tariff/tariff"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.epam.com.tariff/tariff tariff.xsd ">
+
+	<tns:tariff_info id="m100">
+		<tns:name>ULTRA</tns:name>
+		<tns:operator_name>MTS</tns:operator_name>
+		<tns:payroll>34.7</tns:payroll>
+		<tns:call_prices inside_network="1.4" outside_network="2.5"
+			stationary_network="3.0"></tns:call_prices>
+		<tns:sms_price>4.2</tns:sms_price>
+		<tns:parameters>
+			<tns:favourite_number>1</tns:favourite_number>
+			<tns:tariffing>from first second</tns:tariffing>
+			<tns:price_for_connection>0.0</tns:price_for_connection>
+		</tns:parameters>
+	</tns:tariff_info>
+
+	<tns:tariff_info id="v207">
+		<tns:name>BISUNESS</tns:name>
+		<tns:operator_name>Velcome</tns:operator_name>
+		<tns:payroll>23.7</tns:payroll>
+		<tns:call_prices inside_network="3.1" outside_network="4.2"
+			stationary_network="4.5" />
+		<tns:sms_price>3.9</tns:sms_price>
+		<tns:parameters>
+			<tns:favourite_number>0</tns:favourite_number>
+			<tns:tariffing>from first minute</tns:tariffing>
+			<tns:price_for_connection>27.8</tns:price_for_connection>
+		</tns:parameters>
+	</tns:tariff_info>
+
+	<tns:tariff_info id="l312">
+		<tns:name>LETO</tns:name>
+		<tns:operator_name>Life</tns:operator_name>
+		<tns:payroll>44.0</tns:payroll>
+		<tns:call_prices inside_network="0.0" outside_network="3.7"
+			stationary_network="4.7" />
+		<tns:sms_price>4.8</tns:sms_price>
+		<tns:parameters>
+			<tns:favourite_number>1</tns:favourite_number>
+			<tns:tariffing>from twelve second</tns:tariffing>
+			<tns:price_for_connection>31.6</tns:price_for_connection>
+		</tns:parameters>
+	</tns:tariff_info>
+
+	<tns:tariff_info id="m123">
+		<tns:name>STANDART</tns:name>
+		<tns:operator_name>MTS</tns:operator_name>
+		<tns:payroll>25.0</tns:payroll>
+		<tns:call_prices inside_network="3.5" outside_network="3.7"
+			stationary_network="4.7" />
+		<tns:sms_price>2.8</tns:sms_price>
+		<tns:parameters>
+			<tns:favourite_number>0</tns:favourite_number>
+			<tns:tariffing>from first second</tns:tariffing>
+			<tns:price_for_connection>10.0</tns:price_for_connection>
+		</tns:parameters>
+	</tns:tariff_info>
+
+	<tns:tariff_info id="v202">
+		<tns:name>OPTIMA</tns:name>
+		<tns:operator_name>Velcome</tns:operator_name>
+		<tns:payroll>34.6</tns:payroll>
+		<tns:call_prices inside_network="2.5" outside_network="5.7"
+			stationary_network="5.7" />
+		<tns:sms_price>6.1</tns:sms_price>
+		<tns:parameters>
+			<tns:favourite_number>2</tns:favourite_number>
+			<tns:tariffing>from first second</tns:tariffing>
+			<tns:price_for_connection>21.0</tns:price_for_connection>
+		</tns:parameters>
+	</tns:tariff_info>
+
+	<tns:tariff_info id="l306">
+		<tns:name>KLASS</tns:name>
+		<tns:operator_name>Life</tns:operator_name>
+		<tns:payroll>51.0</tns:payroll>
+		<tns:call_prices inside_network="0.0" outside_network="3.5"
+			stationary_network="4.3" />
+		<tns:sms_price>4.1</tns:sms_price>
+		<tns:parameters>
+			<tns:favourite_number>2</tns:favourite_number>
+			<tns:tariffing>from first minute</tns:tariffing>
+			<tns:price_for_connection>15.0</tns:price_for_connection>
+		</tns:parameters>
+	</tns:tariff_info>
+
+	<tns:tariff_info id="m173">
+		<tns:name>URA</tns:name>
+		<tns:operator_name>MTS</tns:operator_name>
+		<tns:payroll>32.8</tns:payroll>
+		<tns:call_prices inside_network="3.0" outside_network="4.5"
+			stationary_network="4.9" />
+		<tns:sms_price>3.7</tns:sms_price>
+		<tns:parameters>
+			<tns:favourite_number>0</tns:favourite_number>
+			<tns:tariffing>from first second</tns:tariffing>
+			<tns:price_for_connection>23.0</tns:price_for_connection>
+		</tns:parameters>
+	</tns:tariff_info>
+
+	<tns:tariff_info id="v240">
+		<tns:name>SMART</tns:name>
+		<tns:operator_name>Velcome</tns:operator_name>
+		<tns:payroll>15.9</tns:payroll>
+		<tns:call_prices inside_network="4.6" outside_network="5.8"
+			stationary_network="6.2" />
+		<tns:sms_price>3.8</tns:sms_price>
+		<tns:parameters>
+			<tns:favourite_number>1</tns:favourite_number>
+			<tns:tariffing>from twelve second</tns:tariffing>
+			<tns:price_for_connection>11.0</tns:price_for_connection>
+		</tns:parameters>
+	</tns:tariff_info>
+
+	<tns:tariff_info id="l381">
+		<tns:name>KEDY</tns:name>
+		<tns:operator_name>Life</tns:operator_name>
+		<tns:payroll>46.0</tns:payroll>
+		<tns:call_prices inside_network="0.0" outside_network="4.8"
+			stationary_network="5.2" />
+		<tns:sms_price>4.5</tns:sms_price>
+		<tns:parameters>
+			<tns:favourite_number>2</tns:favourite_number>
+			<tns:tariffing>from first second</tns:tariffing>
+			<tns:price_for_connection>35.0</tns:price_for_connection>
+		</tns:parameters>
+	</tns:tariff_info>
+
+	<tns:tariff_info id="m109">
+		<tns:name>LIGHT</tns:name>
+		<tns:operator_name>MTS</tns:operator_name>
+		<tns:payroll>28.6</tns:payroll>
+		<tns:call_prices inside_network="2.7" outside_network="3.8"
+			stationary_network="4.2" />
+		<tns:sms_price>4.3</tns:sms_price>
+		<tns:parameters>
+			<tns:favourite_number>0</tns:favourite_number>
+			<tns:tariffing>from twelve second</tns:tariffing>
+			<tns:price_for_connection>25.1</tns:price_for_connection>
+		</tns:parameters>
+	</tns:tariff_info>
+
+	<tns:tariff_info id="v218">
+		<tns:name>PREMIUM</tns:name>
+		<tns:operator_name>Velcome</tns:operator_name>
+		<tns:payroll>45.9</tns:payroll>
+		<tns:call_prices inside_network="2.2" outside_network="3.1"
+			stationary_network="3.6"></tns:call_prices>
+		<tns:sms_price>3.3</tns:sms_price>
+		<tns:parameters>
+			<tns:favourite_number>2</tns:favourite_number>
+			<tns:tariffing>from first second</tns:tariffing>
+			<tns:price_for_connection>33.0</tns:price_for_connection>
+		</tns:parameters>
+	</tns:tariff_info>
+
+	<tns:tariff_info id="l391">
+		<tns:name>RADUGA</tns:name>
+		<tns:operator_name>Life</tns:operator_name>
+		<tns:payroll>18.9</tns:payroll>
+		<tns:call_prices inside_network="3.1" outside_network="4.8"
+			stationary_network="5.2" />
+		<tns:sms_price>4.7</tns:sms_price>
+		<tns:parameters>
+			<tns:favourite_number>1</tns:favourite_number>
+			<tns:tariffing>from first minute</tns:tariffing>
+			<tns:price_for_connection>25.5</tns:price_for_connection>
+		</tns:parameters>
+	</tns:tariff_info>
+</tns:tariff>

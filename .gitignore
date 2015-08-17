@@ -1,0 +1,7 @@
+.settings
+build
+*.class
+*.classpath
+*.project
+bin/
+WebXml.7z

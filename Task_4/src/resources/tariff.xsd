@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.epam.com.tariff/tariff"
+	xmlns:tns="http://www.epam.com.tariff/tariff" elementFormDefault="qualified">
+
+	<annotation>
+		<documentation xml:lang="en">
+			Variant_3
+			Mobile_tariffs
+		</documentation>
+	</annotation>
+
+	<!-- Main Element of the Schema -->
+	<element name="tariff">
+		<complexType>
+			<sequence>
+				<element id="tariff" name="tariff_info" type="tns:Tariff_info"
+					minOccurs="1" maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+	</element>
+
+	<!-- Type for every form of tariff -->
+	<complexType name="Tariff_info">
+		<sequence>
+			<element name="name" type="string" maxOccurs="1" />
+			<element name="operator_name" type="tns:Operator" maxOccurs="1" />
+			<element name="payroll" type="double" maxOccurs="1"	minOccurs="0" />
+			<element name="call_prices" type="tns:Call_Prices" maxOccurs="1" />
+			<element name="sms_price" type="double" maxOccurs="1" />
+			<element name="parameters" type="tns:Parameters" />
+		</sequence>
+
+		<attribute name="id" use="required">
+			<simpleType>
+				<restriction base="ID">
+					<pattern value="[a-zA-Z]{1}[0-9]{3}" />
+				</restriction>
+			</simpleType>
+		</attribute>
+	</complexType>
+
+	<!-- Operator -->
+	<simpleType name="Operator">
+		<restriction base="string">
+			<enumeration value="MTS" />
+			<enumeration value="Velcome" />
+			<enumeration value="Life" />
+		</restriction>
+	</simpleType>
+
+	<!-- Call prices -->
+	<complexType name="Call_Prices">
+		<attribute name="inside_network" type="double" use="required" />
+		<attribute name="outside_network" type="double" use="required" />
+		<attribute name="stationary_network" type="double" use="required" />
+	</complexType>
+
+	<!-- Additional Parameters -->
+	<complexType name="Parameters">
+		<sequence>
+			<element name="favourite_number" type="int" maxOccurs="1" />
+			<element name="tariffing" type="tns:Tariffing_type" maxOccurs="1" />
+			<element name="price_for_connection" type="double" maxOccurs="1" />
+		</sequence>
+	</complexType>
+
+	<!-- Types of tarrifing -->
+	<simpleType name="Tariffing_type">
+		<restriction base="string">
+			<enumeration value="from first second" />
+			<enumeration value="from twelve second" />
+			<enumeration value="from first minute" />
+		</restriction>
+	</simpleType>
+
+</schema>
